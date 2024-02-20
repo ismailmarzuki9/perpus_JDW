@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+	background-image: url(images/202.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.titlelogin{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-top: 7%;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #051b4e;
+    box-shadow: 1PX 8PX 20px -1PX rgb(255, 255, 255);
+}
+.container h1{
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid white;
+}
+.container label{
+    text-align: left;
+    color: white;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #051b4e;
+    border-bottom: 2px solid white;
+    color: #fff;
+    font-size: 20px;
+}
+.container form button{
+    width: 100%;
+    padding: 5px 5px;
+    border: none;
+    background-color:black;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
